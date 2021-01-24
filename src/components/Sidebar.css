@@ -1,0 +1,67 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+  overflow-x: hidden;
+  transition: 0.3s;
+ justify-content: center;
+ align-items: center;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+
+.rectangle{
+display: inline-block;
+padding: 18px 48px;
+background: rgba(255, 255, 255, 0.75);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13.0px );
+-webkit-backdrop-filter: blur( 13.0px );
+border-radius: 48px;
+color: black;
+
+cursor: pointer;
+}
+
+.gly-icon{
+  float: left;
+  cursor: pointer;
+  margin-top:12px;
+  font-size: 20px;
+}
+
+.brand{
+  margin: 10px;
+  font-size: 28px;
+  /* font-weight: bold; */
+  color: whitesmoke;
+}
+.navbar{
+  margin-bottom: 0%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: rgba( 80, 227, 194, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.0px );
+  -webkit-backdrop-filter: blur( 13.0px );
+  /* border-radius: 10px; */
+}
+
+.container{
+  width: 100%;
+}
+

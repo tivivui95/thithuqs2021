@@ -1,0 +1,82 @@
+.qNumber {
+  font-size: 24px;
+  color: black;
+  font-weight:initial;
+}
+.optionGroup{
+  color:darkslategrey;
+  font-weight: normal;
+}
+label{
+  font-weight: normal;
+}
+.questLayout {
+  margin-left: 10px;
+  padding: 12px 48px;
+  
+}
+.boxglass {
+  padding: 12px 36px 24px 36px;
+  margin-top: 24px;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 24px;
+}
+.submit {
+  text-align:  center;
+  margin-top:10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  
+}
+
+button {
+  text-align: center;
+  width: 120px;
+  background: rgba(255, 255, 255, 0.651);
+box-shadow: 0 8px 32px 0 rgba(64, 68, 122, 0.37);
+backdrop-filter: blur( 13.0px );
+-webkit-backdrop-filter: blur( 13.0px );
+border-radius: 48px!important;
+}
+
+.footer{
+  position: initial;
+}
+
+
+  @keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+.mainContent{
+  animation: fadeInLeft 0.5s;
+}
+
+.loading{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+width: 50px !important;
+height: 50px !important;
+}
+.focus{
+  border: solid 2px #0000FF;
+  background-color:#e5e5e5;
+}
+
+h3 {
+  font-size: 24px;
+}

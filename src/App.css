@@ -1,0 +1,31 @@
+.App {
+ margin: 0%;
+ margin-top: 10px;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+
+
+.App-header {
+  background: rgb(6, 141, 141);
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.side-bar{
+  opacity: 0.9;
+  position: fixed;
+  height: 100%;
+  width: 0%;
+  background: #333;
+  z-index: 99;
+  transition: 0.5s;
+}
+.sub-side-bar{
+  display: none;
+}
+.thongtincauhoi{
+  text-align: center;
+}
+
